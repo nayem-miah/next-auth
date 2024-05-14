@@ -12,7 +12,7 @@ export const {
     signOut
 } = NextAuth({
 
-  adapter: MongoDBAdapter(clientPromise, {databaseName: process.env.ENVIRONMENT}),
+  adapter: MongoDBAdapter(clientPromise),
 
   providers: [
     GoogleProvider({
