@@ -8,7 +8,6 @@ const LoginForm = () => {
     const router = useRouter();
     const [error, setError] = useState("");
 
-
     async function onSubmit(event) {
         event.preventDefault();
         try {
