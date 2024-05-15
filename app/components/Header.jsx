@@ -5,7 +5,6 @@ import Signout from "./Signout";
 
 export default async function Header() {
   const session = await auth();
-
   return (
     <div>
       {session?.user ? (
